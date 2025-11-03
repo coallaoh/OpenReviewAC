@@ -1,0 +1,11 @@
+# Core dependencies for OpenReview AC workflow automation
+
+# OpenReview API client
+openreview-py>=1.41.0
+
+# Google Sheets integration
+gsheet-manager>=0.3.0
+
+# Progress bar for batch operations
+tqdm>=4.66.0
+
