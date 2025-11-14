@@ -43,12 +43,21 @@ GSHEET_TITLE = f"{CONFERENCE_NAME} AC DB"
 # Name of the worksheet/tab within the Google Sheet
 GSHEET_SHEET = "Sheet1"
 
+# Title template for Author DB Google Sheet (will be formatted with conference name)
+GSHEET_AUTHOR_TITLE_TEMPLATE = "{conference} Author DB"
+
+# Name of the worksheet/tab for Author DB
+GSHEET_AUTHOR_SHEET = "Sheet1"
+
 # ============================================================================
 # INITIALIZATION OPTIONS
 # ============================================================================
 # Set to True to clear the sheet and start fresh
 # Set to False to update existing data based on paper_number
-INITIALIZE_SHEET = False
+INITIALIZE_SHEET = True
+
+# Batch size for writing rows to Google Sheets
+GSHEET_BATCH_SIZE = 1000
 
 # ============================================================================
 # CONFERENCE INFORMATION
