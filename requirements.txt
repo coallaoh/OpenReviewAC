@@ -12,3 +12,7 @@ tqdm>=4.66.0
 # Environment variable management
 python-dotenv>=1.0.0
 
+# Data visualization and numerical computing
+matplotlib>=3.7.0
+numpy>=1.24.0
+
